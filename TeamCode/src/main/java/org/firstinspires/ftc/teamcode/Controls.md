@@ -1,0 +1,32 @@
+- Driver:
+  - Movement:
+    - Left joystick = movement/strafing
+    - Right joystick = turning (only based on x position)
+    - Right Bumper = slow mode
+  - Lifts:
+    - Y = raise lifts
+    - A = lower lifts
+    - Left Bumper = override software limits
+    - Back = reset zero position
+    - Left Trigger = raise left lift specifically
+    - Right Trigger = raise right lift specifically
+    - Dpad down = hold lifts at climb position
+    - Dpad up = reset start position of lifts for when the lifts are raised during autonomous
+      - for when the robot is parked next to submersible and lifts are raised to touch the bar
+- Operator:
+  - Pivot:
+    - Dpad Up = raise arm (pivot toward the back of the robot)
+    - Dpad Down = lower arm (pivot toward the front of the robot)
+    - Right Bumper = slow mode
+    - Left Bumper = override software limits
+    - Back = reset zero position
+  - Arm:
+    - Dpad Right = extend arm
+    - Dpad Left = retract arm
+    - Right Bumper = slow mode
+    - Left Bumper = override software limits
+    - Back = reset zero position
+    - Y = automatically extend arm to highest position (can be cancelled by other commands)
+  - Intake:
+    - B = Spin forward (intake)
+    - X = Spin backward (outtake)
